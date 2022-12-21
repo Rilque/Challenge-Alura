@@ -1,0 +1,64 @@
+#banner {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+body {
+    background-color: #b9c8ff71;
+}
+
+/* Posicionamento do main*/
+main {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#entrada {
+    width: 65vw;
+}
+
+/*Caixa de texto mensagem*/
+#mensagem {
+    color: #194c8a;
+    width: 400px;
+}
+
+textarea {
+    font-weight: bold;
+    background-color: transparent;
+    resize: none;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2em;
+    border: none;
+}
+
+/* Retira a linha da borda do textArea */
+textarea:focus {
+    outline: none;
+}
+
+/* Resultado (saída) */
+#resultado {
+    width: 20vw; margin-top: -12vh;
+}
+
+/* Tamanho da caixa de resultado */
+#text-resultado {
+    height: 65vh;
+}
+
+/* Estilo da caixa de resultado */
+#text-resultado {
+    background: url(../image/pesquisa.svg);
+    background-repeat: no-repeat; /*não repetir imagem*/
+    background-position: center center; /*imagem no centro*/
+
+    background-color: rgb(167, 192, 221);
+    background-size: 100%;
+
+    border: 3px; /*borda*/
+    border-radius: 32px;
+    transition: all 250ms ease-out;
+}
